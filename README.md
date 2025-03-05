@@ -2,6 +2,7 @@
 Calibrating interpolation and dispersion compensation for OCT
 How to properly perform k-linearization and dispersion compensation for OCT
 1.Image two sets of Alines using a single reflector (such as the top surface of a glass slide) at two different depths, one close to the zero-delay position, the other around the middle of imaging depth.
+![file1 Alines](https://github.com/user-attachments/assets/350b919e-7d3f-4488-8972-13a38a62fa3a)
 
 2.Properly remove DC.
 datB2 = zeros(size(datB)) ;
